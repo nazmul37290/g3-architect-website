@@ -202,6 +202,15 @@ main {
   .team-title {
     width: auto;
   }
+  .sponsors-img-container {
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    margin-top: 20px;
+  }
+  .sponsors-img-container img {
+    width: 11.25rem;
+  }
 }
 
 @media screen and (min-width: 576px) and (max-width: 992px) {
@@ -216,6 +225,29 @@ main {
     flex-direction: column-reverse;
   }
   .team-img-contianer {
+    margin-top: 20px;
+  }
+  .section-title,
+  .team-content,
+  .team-title {
+    margin: 0 auto;
+    text-align: center;
+  }
+  .text-gray {
+    text-align: center;
+    padding: 10px;
+  }
+  .card {
+    width: 40%;
+  }
+  .facts .facts-card-container {
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  .sponsors-img-container {
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
     margin-top: 20px;
   }
 }
