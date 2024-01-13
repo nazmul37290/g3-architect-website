@@ -258,6 +258,10 @@ main {
     text-align: center;
     padding: 20px;
   }
+  .facts-card-container .card {
+    width: 70%;
+    margin: 0 auto;
+  }
   .section-title,
   .features-card-title {
     text-align: center;
@@ -277,6 +281,7 @@ main {
   .features-img-container img {
     width: 100%;
   }
+
   .features-section .section-title {
     padding: 10px;
   }
