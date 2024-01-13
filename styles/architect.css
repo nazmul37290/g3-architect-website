@@ -26,7 +26,10 @@
 
 header {
   background: rgba(255, 144, 14, 0.1);
+
+  max-width: 1920px;
   padding: 50px 240px;
+  margin: 0 auto;
 }
 
 nav {
@@ -81,7 +84,45 @@ nav li a {
   margin-top: 50px;
   width: 100%;
 }
+/* main styles */
+main {
+  max-width: 1440px;
+  margin: 0 auto;
+}
 
+/* team section styles */
+.team-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.team-img-contianer {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.5rem;
+}
+.team-content {
+  padding: 0 70px;
+}
+.team-title {
+  font-size: 2.9rem;
+  font-weight: 700;
+  width: 468px;
+}
+.team-title .quick-list {
+  color: #727272;
+  font-weight: 500;
+}
+.team-title .text-features {
+  color: #ff900e;
+  font-weight: 700;
+}
+.team-description {
+  margin-top: 1.5rem;
+  margin-bottom: 2rem;
+  color: #727272;
+  line-height: 26px;
+}
 /* responsive media queries */
 
 @media screen and (max-width: 576px) {
